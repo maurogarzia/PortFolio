@@ -1,4 +1,5 @@
 import { AboutMe } from '../../components/AboutMe/AboutMe'
+import { ContactMe } from '../../components/ContactMe/ContactMe'
 import { Header } from '../../components/Header/Header'
 import { Technologies } from '../../components/Technologies/Technologies'
 import { useStoreItems } from '../../store/useStoreItems'
@@ -13,6 +14,7 @@ export const MainScreen = () => {
             <Header/>
             {item === 'aboutMe' && <AboutMe/>}
             {item === 'technologies' && <Technologies/>}
+            {item === 'contact' && <ContactMe/>}
         </div>
     )
 }

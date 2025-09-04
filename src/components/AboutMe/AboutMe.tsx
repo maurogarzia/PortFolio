@@ -20,11 +20,7 @@ export const AboutMe = () => {
                     Actualmente, estoy enfocado en pulir mis habilidades en React y aprender Tailwind. Además, disfruto colaborar en equipos dinámicos y aprender constantemente de los desafíos tecnológicos.
                     Cuando no estoy programando, me podes encontrar jugando videojuegos, jugando a la pelota o en el gimnasio.
                 </p>
-                <p>
-                    He trabajado en proyectos personales que incluyen el desarrollo de aplicaciones web interactivas, automatización de procesos e integración de API's robustas". Mi enfoque combina creatividad y análisis para resolver problemas complejos de manera efectiva.
-                    Actualmente, estoy enfocado en pulir mis habilidades en React y aprender Tailwind. Además, disfruto colaborar en equipos dinámicos y aprender constantemente de los desafíos tecnológicos.
-                    Cuando no estoy programando, me podes encontrar jugando videojuegos, jugando a la pelota o en el gimnasio.
-                </p>
+                
             </div>
 
             <h1 className={style.title}>Estudios</h1>

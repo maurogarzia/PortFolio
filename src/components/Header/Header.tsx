@@ -19,7 +19,7 @@ export const Header = () => {
 
             
             <div className={style.containerItem}>
-                <p>Redes</p>
+                <p onClick={() => setItem('contact')}>Redes</p>
                 <p>Proyectos</p>
 
             </div>
