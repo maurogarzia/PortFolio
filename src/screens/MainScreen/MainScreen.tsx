@@ -1,5 +1,6 @@
 import { AboutMe } from '../../components/AboutMe/AboutMe'
 import { Header } from '../../components/Header/Header'
+import { Technologies } from '../../components/Technologies/Technologies'
 import { useStoreItems } from '../../store/useStoreItems'
 import style from './MainScreen.module.css'
 
@@ -11,7 +12,7 @@ export const MainScreen = () => {
         <div className={style.containerPrincipal}>
             <Header/>
             {item === 'aboutMe' && <AboutMe/>}
-
+            {item === 'technologies' && <Technologies/>}
         </div>
     )
 }
