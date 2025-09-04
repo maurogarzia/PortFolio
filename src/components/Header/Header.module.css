@@ -1,6 +1,6 @@
 .containerPrincipal{
     width: 800px;
-    background-color: gray;
+    background-color:rgb(60, 60, 60);
     height: 60px;
     margin-top: 40px;
     border-radius: 30px;
@@ -23,25 +23,30 @@
     align-items: center;
     width: 100%;
     padding: 5px;
+    border-radius: 10px;
 }
 .containerItem p:hover {
     background-color: aliceblue;
-    color: gray;
+    color: rgb(60, 60, 60);
     cursor: pointer;
     transition: 0.3s ease;
+    
 }
 .image{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
-    background-color: gray;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(60, 60, 60);
     border-radius: 100%;
     padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 .image img{
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
