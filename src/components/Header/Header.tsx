@@ -20,7 +20,7 @@ export const Header = () => {
             
             <div className={style.containerItem}>
                 <p onClick={() => setItem('contact')}>Redes</p>
-                <p>Proyectos</p>
+                <p onClick={() => setItem('projects')}>Proyectos</p>
 
             </div>
         </div>
