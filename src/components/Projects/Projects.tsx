@@ -12,10 +12,19 @@ export const Projects = () => {
 
                     <div className={style.info}>
 
-                        <p>Descripcion</p>
+                        <p>Tarjeta de presentación interactiva diseñada para mostrar el perfil de un programador web de manera dinámica y profesional.</p>
                         <div className={style.containerButton}>
-                            <button>Repositorio</button>
-                            <button>Ver</button>
+
+                                <a href="https://github.com/maurogarzia/tarjetaPresentacion" target='blank'>
+                                    <button>
+                                        Repositorio
+                                    </button>
+                                </a>
+                                <a href="https://tarjeta-presentacion-pntv.vercel.app/" target='blank'>
+                                    <button>
+                                        Ver
+                                    </button>
+                                </a>
                         </div>
                     </div>
                 </div>
@@ -24,10 +33,15 @@ export const Projects = () => {
                     <h2>TodoFood</h2>
                     
                     <div className={style.info}>
-                        <p>Descripcion</p>
+                        <p>Página para hamburgueseria de tipo E-commerce</p>
                         
                         <div className={style.containerButton}>
-                            <button>Repositorio</button>
+                            <a href="https://github.com/maurogarzia/FrontEndTodoFood" target='blank'>
+                                <button>Repositorio Frontend</button>
+                            </a>
+                            <a href="https://github.com/maurogarzia/BackEndTodoFood" target='blank'>
+                                <button>Respositorio Backend</button>
+                            </a>
                         </div>
 
                     </div>

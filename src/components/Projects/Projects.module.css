@@ -35,7 +35,7 @@
     display: flex;
     width: 100%;
     padding: 15px;
-    
+    gap: 10px;
 }
 .info p {
     width: 100%;
@@ -43,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align:justify;
 }
 .containerButton{
     display: flex;
@@ -50,6 +51,32 @@
     justify-content: center;
     align-items: center;
 }
+.containerButton a{
+    width: 100%;
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
 .containerButton button{
     width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    .containerProjects{
+        width: 100%;
+    }
+    .project{
+        width: 100%;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerButton{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
