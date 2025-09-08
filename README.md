@@ -1,10 +1,10 @@
-Portfolio de Mauro Garzia
+# Portfolio de Mauro Garzia
 
 Este es mi portfolio personal, donde muestro proyectos, habilidades y experiencia en desarrollo web y otras tecnologías. El objetivo de este proyecto es presentar mi trabajo de manera profesional y accesible para empleadores o clientes.
 
 --
 
-🚀 Características
+# 🚀 Características
 
 Página principal con presentación personal y foto de perfil.
 
@@ -36,7 +36,7 @@ portfolio/
 
 ```
 
-💻 Instalación y uso
+# 💻 Instalación y uso
 
 1. Clonar el repositorio:
 ```bash
