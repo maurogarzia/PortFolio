@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+Portfolio de Mauro Garzia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi portfolio personal, donde muestro proyectos, habilidades y experiencia en desarrollo web y otras tecnologías. El objetivo de este proyecto es presentar mi trabajo de manera profesional y accesible para empleadores o clientes.
 
-Currently, two official plugins are available:
+--
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Características
 
-## Expanding the ESLint configuration
+Página principal con presentación personal y foto de perfil.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Sección de proyectos, cada uno con descripción, tecnologías usadas y enlace al repositorio.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Sección de habilidades técnicas.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Sección de contacto con formularios y enlaces a LinkedIn, GitHub y correo electrónico.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Diseño responsivo, adaptable a móviles, tablets y escritorio.
+
+Experiencia de usuario fluida con animaciones y transiciones simples.
+
+📂 Estructura del proyecto
+
+```bash
+portfolio/
+├─ public/             # Archivos estáticos (imágenes, favicon)
+├─ src/
+│  ├─assets/           # Imágenes y recursos
+│  ├─ components/      # Componentes React reutilizables
+│  ├─ screens          # Páginas del portfolio
+│  ├─ store            # Estados de zustand 
+│  ├─ App.tsx           
+│  ├─ index.css        # Archivos CSS o módulos CSS          
+│  └─ main.jsx         
+├─ package.json        # Dependencias y scripts
+└─ README.md
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+💻 Instalación y uso
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/maurogarzia/PortFolio
 ```
+
+2. Instalar dependencias
+```bash
+cd portfolio
+npm install
+```
+
+3.Iniciar servidor de desarrollo:
+```bash
+npm run dev
+```
+
+4. Abrir el navegador en http://localhost:5173 (o la URL que indique Vite).
+
+--
+Link de Vercel: https://port-folio-gold-phi.vercel.app/
+
+
