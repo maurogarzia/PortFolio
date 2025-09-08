@@ -30,6 +30,23 @@ export const Projects = () => {
                 </div>
 
                 <div className={style.project}>
+                    <h2>WeatherApp</h2>
+
+                    <div className={style.info}>
+                        <p>Página del clima para conocer el clima en cada ciudad en ese momento </p>
+
+                        <div className={style.containerButton}>
+                            <a href="https://github.com/maurogarzia/WeatherApp" target='blank'>
+                                <button>Repositorio</button>
+                            </a>
+                            <a href="http://weather-app-ivory-nine-68.vercel.app" target='blank'>
+                                <button>Ver</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={style.project}>
                     <h2>TodoFood</h2>
                     
                     <div className={style.info}>

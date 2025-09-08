@@ -51,10 +51,26 @@ export const Technologies = () => {
 
                 <div className={style.target}>
                     <div className={style.logo}>
-                        <span className="fab fa-css3-alt" style={{ "fontSize": "55px", "color": "#38B2AC" }}></span>
+                        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"></img>
                     </div>
                     <p>Tailwind</p>
                 </div>
+
+                <div className={style.target}>
+                    <div className={style.logo}>
+                        <span className="fab fa-css3-alt" style={{ "fontSize": "55px", "color": "#38B2AC" }}></span>
+                    </div>
+                    <p>Css</p>
+                </div>
+
+                <div className={style.target}>
+                    <div className={style.logo}>
+                        <span className="fab fa-node-js" style={{"fontSize": "55px", "color": "#339933"}}></span>
+
+                    </div>
+                    <p>Node</p>
+                </div>
+
             </div>
             
         </div>
