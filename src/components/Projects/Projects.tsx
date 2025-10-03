@@ -63,6 +63,23 @@ export const Projects = () => {
 
                     </div>
                 </div>
+
+                <div className={style.project}>
+                    <h2>Dashboard de Finzanzas</h2>
+
+                    <div className={style.info}>
+                        <p>Página para gestionar la contabilidad y llevar los movimientos financieros</p>
+
+                        <div className={style.containerButton}>
+                            <a href="https://github.com/maurogarzia/financeDashboard" target='blank'>
+                                <button>Repositorio</button>
+                            </a>
+                            <a href="https://finance-dashboard-ten-ruby.vercel.app/" target='blank'>
+                                <button>Ver</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
