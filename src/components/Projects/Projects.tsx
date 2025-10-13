@@ -73,9 +73,9 @@ export const Projects = () => {
                             con un app móvil para android desarrollada en react-native
                         </p>
 
-                        <div className={style.containerButton}>
+                        <div className={style.containerButtonFinance}>
                             <a href="https://github.com/maurogarzia/financeDashboard" target='blank'>
-                                <button>Repositorio</button>
+                                <button>Repositorio de Página web</button>
                             </a>
                             <a href="https://github.com/maurogarzia/AppFinanzas" target='blank'>
                                 <button>Repositorio de app móvil</button>
