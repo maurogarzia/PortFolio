@@ -86,6 +86,26 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className={style.project}>
+                    <h2>Agenda de estudiantes</h2>
+
+                    <div className={style.info}>
+                        <p>
+                            Página para gestionar y organizar el horario de los alumnos de una maestra particular
+                        </p>
+
+                        <div className={style.containerButtonFinance}>
+                            <a href="https://github.com/maurogarzia/StudentAgenda" target='blank'>
+                                <button>Repositorio de Página web</button>
+                            </a>
+                            
+                            <a href="https://student-agenda-dusky.vercel.app/" target='blank'>
+                                <button>Ver</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
